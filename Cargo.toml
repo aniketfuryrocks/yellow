@@ -1,0 +1,11 @@
+[package]
+name = "yellow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.71"
+futures-util = "0.3.28"
+tokio = { version = "1.29.1", features = ["full"] }
+yellowstone-grpc-client = "1.6.0"
+yellowstone-grpc-proto = "1.6.0"
